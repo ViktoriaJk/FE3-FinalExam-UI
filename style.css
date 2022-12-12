@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #145434;
+}
+
+body {
+    background-color: #ffeedf;
+    min-height: 100vh;
+    font-family: Space Grotesk;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    height: 60px;
+    border-bottom: 1px solid #145434;
+}
+
+img {
+    height: 30px;
+    width: 30px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.menu-icon {
+    font-size: 36px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.card-title {
+    color: #ffeedf;
+    border-bottom: 1px solid #ffeedf;
+    padding-bottom: 40px;
+    font-weight: 400;
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+p {
+    color: #ffeedf;
+    padding-top: 3px;
+    font-size: 18px;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.main-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 0 30px;
+}
+
+.card {
+    height: 250px;
+    width: 400px;
+    background-color: #145434;
+    color: #ffeedf;
+    padding: 35px;
+    position: relative;
+}
+
+.circle {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid #145434;
+    background-color: #ffeedf;
+    color: #145434;
+    font-size: 24px;
+    font-weight: 500;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    height: 50px;
+    width: 200px;
+    border: 2px solid #145434;
+    background-color: #ffeedf;
+    color: #145434;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #145434;
+    border: 2px solid #ffeedf;
+    color: #ffeedf;
+}
+
+.button:hover span {
+    color: #ffeedf;
+}
+
+.button span {
+    color: #145434;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    right: 0;
+    font-size: 36px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
